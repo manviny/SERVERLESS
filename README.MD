@@ -11,31 +11,31 @@ Create new Lambda function
 ```
 
 Deploy
-======
+------
 ```bash
   sls deploy -v
 ```  
 
 Invoke
-======
+------
 ```bash
   sls invoke -f hello -l
 ```  
 
 Deploy just the function
-========================
+------------------------
 ```bash
   sls deploy function -f hello
 ```  
 
 Show logs dinamically
-=====================
+---------------------
 ```bash
   sls logs -f hello -t
 ```
 
 Remove lambda function
-======================
+----------------------
 ```bash
   sls remove
 
