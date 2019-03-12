@@ -3,8 +3,8 @@
   npm install -g serverless
   serverless config credentials  --provider aws --key *********** --secret *********** --profile serverless-admin
 ```
-Cretea new Lambda function
-==========================
+Create new Lambda function
+--------------------------
 ```bash
   sls create --template aws-python --path hello-world-python
   sls create --template aws-java-maven --path hello-java
