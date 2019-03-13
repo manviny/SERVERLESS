@@ -39,4 +39,10 @@ Remove lambda function
 ```bash
   sls remove
 
+[Run locally](https://serverless.com/framework/docs/providers/aws/cli-reference/invoke-local/)
+-----------
+```bash
+serverless invoke local --function list
+serverless invoke local --function functionName --data '{"a":"bar"}'
+```
 
