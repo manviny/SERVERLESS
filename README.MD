@@ -38,6 +38,7 @@ Remove lambda function
 ----------------------
 ```bash
   sls remove
+```
 
 [Run locally](https://serverless.com/framework/docs/providers/aws/cli-reference/invoke-local/)
 -----------
